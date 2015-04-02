@@ -29,3 +29,5 @@ func (m *Metrics) FetchData() error {
 func (m *Metrics) GetData() map[string]interface{} {
 	return m.Data
 }
+
+// memory metrics
